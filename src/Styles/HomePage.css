@@ -1,0 +1,38 @@
+#Home {
+    margin-top: 70px;
+    margin-right: 75px;
+    position: relative;
+    z-index: 0;
+
+    
+}
+
+.Home-Welcome {
+    font-size: 50px;
+    text-align:right;
+}
+
+.Home-About {
+    background-color: #314a32;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.7);
+
+    width: 100%;
+    margin-left: 15vmax;
+    padding: 10vmin 5vmin;
+}
+
+.About {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+    #Home {
+        margin-right: 20px;
+    }
+    .Home-Welcome{
+        font-size: 40px;
+    }
+}
+
